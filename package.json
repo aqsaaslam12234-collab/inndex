@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "dev":"tsx watch src/index.tsx",
+    "dev": "tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,11 +13,15 @@
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/aqsaaslam12234-collab/inndex/issues"
   },
   "homepage": "https://github.com/aqsaaslam12234-collab/inndex#readme",
   "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }
